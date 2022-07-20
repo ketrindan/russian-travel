@@ -15,3 +15,6 @@
 * Grid Layout
 * Адаптивная верстка
 * Организация по БЭМ
+
+### ***Ссылка на проект***
+https://ketrindan.github.io/russian-travel/index.html
