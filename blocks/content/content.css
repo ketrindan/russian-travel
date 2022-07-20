@@ -1,0 +1,10 @@
+.content {
+  display: block;
+  padding: 88px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    padding: 92px 0;
+  }
+}

@@ -1,0 +1,14 @@
+.places__description {
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
+}
+
+@media screen and (min-width: 425px) {
+  .places__description {
+    padding: 0;
+  }
+}
