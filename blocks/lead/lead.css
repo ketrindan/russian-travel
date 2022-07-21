@@ -6,12 +6,16 @@
 
 @media screen and (min-width: 1024px) {
   .lead {
-    margin: 0 48px 0 48px;
+    max-width: 928px;
+    /*margin: 0 48px 0 48px;*/
+    margin: auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    margin: 0 148px 0 148px;
+    max-width: 984px;
+    /*margin: 0 148px 0 148px;*/
+    margin: auto;
   }
 }
