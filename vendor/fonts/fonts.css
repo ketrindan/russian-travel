@@ -13,7 +13,7 @@
     url('./Inter-Bold.ttf') format('truetype'),
     url('./Inter-Bold.otf') format('otf');
   font-family: 'Inter Bold';
-  font-style: bold;
+  font-style: normal;
 }
 
 @font-face {
