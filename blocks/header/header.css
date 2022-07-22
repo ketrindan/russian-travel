@@ -1,13 +1,11 @@
 .header {
   display: flex;
   justify-content: space-between;
-  min-height: 42px;
   padding: 16px 16px 48px 16px;
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    min-height: 52px;
     padding: 28px 24px 48px 24px;
   }
 }
