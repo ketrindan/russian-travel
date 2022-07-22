@@ -3,6 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   margin-bottom: 50px;
   gap: 32px;
+  justify-self: center;
 }
 
 @media screen and (min-width: 425px) {
@@ -14,7 +15,7 @@
 
 @media screen and (min-width: 768px) {
   .places__card {
-    width: 100%;
+    max-width: 720px;
     gap: 28px;
     margin-bottom: 73px;
   }
@@ -22,6 +23,7 @@
 
 @media screen and (min-width: 1024px) {
   .places__card {
+    max-width: 928px;
     gap: 32px;
     margin-bottom: 80px;
   }
@@ -29,6 +31,7 @@
 
 @media screen and (min-width: 1280px) {
   .places__card {
+    max-width: 984px;
     gap: 40px;
   }
 }
