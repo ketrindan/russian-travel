@@ -71,7 +71,10 @@ let languageContent = {
 function swithcLang(lang) {
   const langBtns = document.querySelectorAll('.header__lang-btn');
   console.log(langBtns)
-  langBtns.forEach(i => i.classList.toggle('header__lang-btn_active'));
+  langBtns.forEach( (el) => {
+    el.classList.toggle('header__lang-btn_active');
+    el.classList.contains('header__lang-btn_active') ? el.setAttribute('disabled', 'disabled') : el.removeAttribute('disabled')
+  });
 
   for (let key in languageContent[lang]) {
     document.getElementById(key).innerHTML = languageContent[lang][key];

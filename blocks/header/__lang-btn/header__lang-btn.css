@@ -3,8 +3,13 @@
   color: #FFFFFF;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .header__lang-btn:hover {
   opacity: 0.8;
+}
+
+.header__lang-btn:disabled {
+  cursor: not-allowed;
 }
