@@ -1,0 +1,10 @@
+.header__lang-btn {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+}
+
+.header__lang-btn:hover {
+  opacity: 0.8;
+}
